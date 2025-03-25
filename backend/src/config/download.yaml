@@ -1,0 +1,12 @@
+# Destination folder to downloaded files.
+destination: ./files
+
+# Receita Federal website URL that contains all available database versions.
+versions_url: https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj
+
+# Skips the download if a same name file exists in destination folder.
+skip_existent_files: false
+
+# Skips the download of following filenames.
+skip_files:
+  -

@@ -1,0 +1,20 @@
+socio:
+  class: SocioImporter
+  csv_files_path: ./files/Socios*.csv
+  indexes:
+    - cnpj_cpf_socio
+    - nome_socio
+    - representante_legal
+    - nome_representante
+  columns:
+    cnpj_basico: text
+    identificador_de_socio: text
+    nome_socio: text
+    cnpj_cpf_socio: text
+    qualificacao_socio: text
+    data_entrada_sociedade: text
+    pais: text
+    representante_legal: text
+    nome_representante: text
+    qualificacao_representante_legal: text
+    faixa_etaria: text

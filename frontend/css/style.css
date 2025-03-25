@@ -1,0 +1,137 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-size: small;
+}
+
+header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    background-color: #f5f5f5;
+    color: #cc232a;
+}
+
+#header-image {
+    max-width: 220px;
+    height: auto;
+}
+
+#header-link,
+a {
+    display: inline-block;
+    padding: 0px;
+    background: none;
+    color: rgb(58, 75, 207);
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+a {
+    background: transparent;
+    font-size: 12px;
+    border-radius: 5px;
+    color: rgb(58, 75, 207);
+}
+
+a:hover {
+    background: transparent;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+form {
+    background: white;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+input,
+button,
+select {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input {
+    flex: 1;
+    min-width: 150px;
+}
+
+button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    background: #3a6694;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+
+button:hover {
+    background: #205084;
+}
+
+#clearFilters {
+    background: #505b65;
+}
+
+#clearFilters:hover {
+    background: #3a3e49;
+}
+
+table {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 12px;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 12px;
+}
+
+th {
+    background: #626870;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+    margin-top: 0px;
+    padding: 10px;
+    background-color: #eeeeee;
+    border-top: 1px solid #ddd;
+}

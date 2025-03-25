@@ -1,0 +1,12 @@
+simples:
+  csv_files_path: ./files/Simples.csv
+  indexes:
+    - cnpj_basico
+  columns:
+    cnpj_basico: text
+    opcao_simples: text
+    data_opcao_simples: text
+    data_exclusao_simples: text
+    opcao_mei: text
+    data_opcao_mei: text
+    data_exclusao_mei: text
